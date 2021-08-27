@@ -1,5 +1,5 @@
 pipeline {
-    agent any
+    agent MyJenkinsAgent
 
     stages {
         stage('Build') {
